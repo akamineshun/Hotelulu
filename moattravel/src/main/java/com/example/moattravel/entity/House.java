@@ -6,14 +6,13 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-
-import org.springframework.data.annotation.Id;
 
 import lombok.Data;
 
 @Entity
-@Table(name = "house")
+@Table(name = "houses")
 @Data
 public class House {
 
